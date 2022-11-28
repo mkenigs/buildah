@@ -118,4 +118,7 @@ require (
 	k8s.io/klog v1.0.0 // indirect
 )
 
-replace github.com/opencontainers/image-spec => github.com/opencontainers/image-spec v1.0.2-0.20211123152302-43a7dee1ec31
+replace (
+	github.com/containers/storage v1.42.1-0.20220907083030-5aff7f62e8d0 => github.com/mkenigs/storage v1.34.2-0.20221128194634-239d86575c02
+	github.com/opencontainers/image-spec => github.com/opencontainers/image-spec v1.0.2-0.20211123152302-43a7dee1ec31
+)
